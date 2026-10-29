@@ -1,0 +1,35 @@
+# dependencies
+node_modules/
+
+# build
+dist/
+*.tsbuildinfo
+
+# env
+.env
+.env.*
+!.env.example
+
+# logs
+logs/
+*.log
+npm-debug.log*
+
+# prisma artifacts (migrations — в Git; сгенерированный клиент — нет)
+prisma/*.db
+prisma/*.db-journal
+src/schema.gql
+
+# tests / coverage
+coverage/
+.nyc_output/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
