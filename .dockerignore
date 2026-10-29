@@ -1,0 +1,17 @@
+node_modules
+dist
+coverage
+.git
+.gitignore
+.env
+.env.*
+!.env.example
+*.log
+tmp
+temp
+.vscode
+.idea
+README.md
+src/schema.gql
+tsconfig.build.tsbuildinfo
+*.tsbuildinfo
